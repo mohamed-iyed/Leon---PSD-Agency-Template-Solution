@@ -37,8 +37,6 @@
     color: black;
     transition: .5s all;
 
-
-
 }
 #nav-bar .container .nav-links .nav-link:hover {
     transform: translateX(10px);
@@ -47,22 +45,12 @@
     color: var(--main-color);
 }
 
-
-#nav-bar .container #ra:checked + .nav-links {
-    transform: translate(0, 0) scale(1);
-    top: 100%;
-    right: 50px;
-}
-
-
-
 #nav-bar .container img {
     max-width: 100%;
     height: auto;
     width: 100px;
 }
 .bar-logo {
-
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -346,9 +334,9 @@
 
 
 #about .container .text-content {
-    flex: 0 0 50%;
+    flex: 0 0 50%;    
     margin-left: 5rem;
-    max-width: 55%;
+    
 
 }
 #about .container .text-content .text1 {
@@ -430,7 +418,9 @@ footer p span {
     }
     #services .box::after {
         display: none;
-
+    }
+    #services .content {
+        justify-content: center;
     }
     #services .content .container {
         flex: 1;
@@ -460,7 +450,6 @@ footer p span {
         flex-direction: column;
         align-items: center;
         padding: auto 0 auto;
-        margin: 0 !important;
     }
     
     #about .container .box {
@@ -470,6 +459,7 @@ footer p span {
         margin: 0;
         margin-top: 4rem;
         text-align: center;
+        flex: 0 0 100%;
 
     }
 
